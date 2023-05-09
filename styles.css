@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(64, 128, 0, 0.89);
+  width: 1680px;
+  height: 949px;
+}
+
+.form-field {
+  border: dashed chartreuse;
+  background: #738000;
+  width: 700px;
+  height: 700px;
+}
+
+.snake-header {
+  display: flex;
+  width: 700px;
+  height: 100px
+}
+
+.snake svg {
+  width: 700px;
+  height: 100px;
+}
