@@ -12,10 +12,13 @@
 }
 
 .form-field {
+  display: grid;
+  grid-template: repeat(30, 1fr) / repeat(30, 1fr);
   border: dashed chartreuse;
   background: #738000;
   width: 700px;
   height: 700px;
+
 }
 
 .snake-header {
@@ -24,7 +27,27 @@
   height: 100px
 }
 
-.snake svg {
+.snake-logo svg {
   width: 700px;
   height: 100px;
+}
+
+#snake-food span {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: blueviolet;
+  border-radius: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#snake  {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: antiquewhite;
+  background-image: url("img/snk.png");
+  background-size:cover;
+  border-radius: 20px;
 }
