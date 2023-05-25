@@ -1,4 +1,4 @@
-const snakePosition = {
+const snakePosition = { // Hello test
     snakeX: 2,
     snakeY: 1,
 }
